@@ -4,7 +4,6 @@
   "compilerOptions": {
     "sourceMap": true,
     "declaration": true,
-    "jsxImportSource": "@emotion/react",
     "jsx": "react-jsx",
     "strict": true,
     "skipLibCheck": true,
