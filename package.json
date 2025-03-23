@@ -8,7 +8,6 @@
     "manual:publish": "np --no-cleanup --yolo --no-publish && npm publish"
   },
   "files": [
-    "index.js",
     "configs",
     "README.md",
     "package.json"
