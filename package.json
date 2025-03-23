@@ -1,0 +1,49 @@
+{
+  "name": "@wowzap/lint",
+  "version": "0.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "description": "Integrate commonly used ESLint, tslint, pretter, stylelint",
+  "scripts": {
+    "manual:publish": "np --no-cleanup --yolo --no-publish && npm publish"
+  },
+  "files": [
+    "index.js",
+    "README.md"
+  ],
+  "bin": {
+    "stylelint": "node_modules/stylelint/bin/stylelint.js"
+  },
+  "peerDependencies": {
+    "@types/react": ">=18.0.0",
+    "@types/react-dom": ">=18.0.0"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.30.4",
+    "@typescript-eslint/parser": "^5.30.4",
+    "eslint": "^8.31.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-react-app": "^7.0.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-webpack-plugin": "^3.2.0",
+    "eslint-config-next": "^13.1.1",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-simple-import-sort": "^10.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-unused-imports": "^2.0.0",
+    "prettier": "^2.8.8",
+    "stylelint": "^14.16.1",
+    "stylelint-config-prettier": "^9.0.4",
+    "stylelint-config-recommended": "^9.0.0",
+    "stylelint-config-standard": "^29.0.0",
+    "stylelint-config-styled-components": "^0.1.1",
+    "stylelint-order": "^6.0.1",
+    "stylelint-processor-styled-components": "^1.10.0",
+    "typescript": "^4.9.5",
+    "@emotion/react": "^11.10.5",
+    "@types/node": "^20.5.0"
+  },
+  "devDependencies": {
+    "np": "^10.2.0"
+  }
+}
