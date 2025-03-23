@@ -13,9 +13,6 @@
 module.exports = {
   root: true,
   extends: [require.resolve('@wowzap/lint/configs/eslint')],
-  compilerOptions: {
-    "jsxImportSource": "@emotion/react", // for emotion
-  }
 }
 ```
 
@@ -42,5 +39,8 @@ module.exports = {
 ```json
 {
   "extends": "@wowzap/lint/configs/tsconfig/react-library.json",
+  compilerOptions: {
+    "jsxImportSource": "@emotion/react", // for emotion
+  }
 }
 ```
