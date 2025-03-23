@@ -9,10 +9,23 @@
   },
   "files": [
     "index.js",
-    "README.md"
+    "configs",
+    "README.md",
+    "package.json"
+  ],
+  "keywords": [
+    "eslint",
+    "tslint",
+    "prettier",
+    "stylelint",
+    "tsconfig"
   ],
   "bin": {
     "stylelint": "node_modules/stylelint/bin/stylelint.js"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
   },
   "peerDependencies": {
     "@types/react": ">=18.0.0",
